@@ -227,6 +227,22 @@ header #pause{margin-left:auto}
 .app.app .intuitive-game{padding-bottom:3px}.app.app .play-goal{font-size:clamp(19px,5.6vw,26px)}
 @media(min-width:600px){.app.app{height:min(880px,calc(100svh - 48px));min-height:0}.app.app .gift-opening{min-height:100%}}
 @media(max-height:720px){.app.app header{margin-bottom:6px}.app.app .story-diagram,.app.app .product-summary{height:180px;min-height:180px;margin-top:10px}.app.app .story-explain h1{font-size:24px}.app.app .product-summary .summary-black{width:80px}.app.app .explain-copy{font-size:14px;min-height:74px;margin-bottom:8px}.app.app .reward-top{margin-bottom:8px}.app.app .reward-ticket{margin:14px 5px;padding:12px 8px}.app.app .reward-screen .primary{margin-top:15px}.app.app .source-unit{height:54px}.app.app .source-neck{height:20px}.app.app .sink-unit{height:66px;padding-top:17px}.app.app .sink-neck{height:23px}.app.app .outer-pot{height:49px}.app.app .intuitive-game .game-heading{margin:3px 0}.app.app .intuitive-game .race-note{margin-top:5px}}
+
+.app.app .sale-screen h1{font-size:24px;line-height:1.35}
+.app.app .sale-photo{width:clamp(160px,21svh,195px)}
+.app.app .sale-product{margin:8px 0}
+.app.app .sale-offer{padding-top:9px}
+.app.app .sale-discount strong{font-size:27px}
+.app.app .sale-history{margin-top:7px;gap:10px}
+.app.app .sale-history b{font-size:22px}
+.app.app .sale-bonus{margin:8px 0 4px;padding:6px 4px}
+.app.app .sale-total{margin-top:6px}
+.app.app .sale-total p strong{font-size:49px}
+.app.app .sale-code{margin-top:10px;padding-top:8px}
+.app.app .sale-buy{margin-top:12px;padding:14px 8px}
+.app.app .sale-footnote{margin-top:8px}
+.app.app .sale-assurance .assurance-item{white-space:nowrap;margin:0}
+@media(max-height:720px){.app.app .sale-screen h1{font-size:20px}.app.app .sale-photo{width:150px}.app.app .sale-total p strong{font-size:42px}.app.app .sale-product{margin:5px 0}.app.app .sale-brand{margin-top:4px}}
 </style></head><body><main class="app"><header><span class="wordmark">LOCABO<span>:V</span></span><button class="icon-btn" id="pause" aria-label="一時停止">Ⅱ</button></header><nav class="steps" aria-label="体験の進み具合"><span class="active">01 遊ぶ</span><span>02 知る</span><span>03 ごはんを楽しむ</span></nav><div id="content"></div><div id="toast" role="status" aria-live="polite"></div><div id="pauseLayer" class="pause-layer" hidden><div><p class="eyebrow">PAUSE</p><h2>ひと休み。</h2><p>準備ができたら、続きをどうぞ。</p><button class="primary" id="resume">つづける</button></div></div></main><script>'use strict';
 const CONFIG={duration:20,intro:6,explainStep:3.5,url:'https://locabo.online/lp/locv198_02/index.html?ad_code=applovin001'};
 const content=document.getElementById('content');
