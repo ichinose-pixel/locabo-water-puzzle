@@ -5,7 +5,7 @@ const root = document.querySelector('main.app');
 if (!root || !root.querySelector('#content') || root.dataset.locaboBooted === 'true') return;
 root.dataset.locaboBooted = 'true';
 'use strict';
-const CONFIG={duration:20,intro:6,explainStep:3.5,url:'https://locabo.online/lp/locv198_02/index.html?ad_code=applovin001'};
+const CONFIG={duration:20,intro:6,explainStep:3.5,url:'https://locabo.online/lp/locv198_02/index.html?sb_tracking=true'};
 const content=document.getElementById('content');
 const REWARD_KEY='locabo-water-puzzle:GOHAN2000:v1';
 function savedReward(){try{return localStorage.getItem(REWARD_KEY)==='earned'}catch{return false}}
